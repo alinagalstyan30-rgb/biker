@@ -90,7 +90,7 @@
 // console.log(person);
 
 2
-// function removeundefined(obj){
+// function removeUndefined(obj){
 //     for(let key in obj){
 //         if(obj[key] === undefined){
 //             delete obj[key];
@@ -106,5 +106,64 @@
 //     key4: undefined
 // };
 
-// removeundefined(obj);
+// removeUndefined(obj);
 // console.log(obj);
+
+//exercises
+1
+// function checkZuygTeKent(num){
+//     if (num %2===0){
+//         console.log(num+"zuyg")
+//     } else {
+//         console.log(num+"kent")
+//     }
+// }
+// checkZuygTeKent(51,24)
+
+2
+// function findMinimum(a,b){
+//     if(a<b){
+//         return a;
+//     } else {
+//         return b
+//     }
+// }
+// let min=findMinimum(45,87)
+// console.log(min)
+
+6
+// function findMaximum(a,b,c){
+//     if(a>b && a>c){
+//         return a;
+//     } else if(b>a && b>c){
+//         return b;
+//     } else{
+//         return c
+//     }
+// }
+// let max=findMaximum(62,78,24)
+// console.log(max)
+
+3
+// function calculateProduct(n){
+//     if(n<=1){
+//         return 1;
+//     }
+//     let product=1
+//     for(let i=1; i<n; i++){
+//         product*=i
+//     } return product;
+// }
+// console.log(calculateProduct(8))
+
+4
+function calculateProduct(n){
+    if(n<=1){
+        return 1;
+    }
+    let product=1
+    for(let i=1; i<n; i++){
+        product+=i
+    } return product;
+}
+console.log(calculateProduct(10))
