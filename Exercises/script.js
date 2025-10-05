@@ -157,13 +157,13 @@
 // console.log(calculateProduct(8))
 
 4
-function calculateProduct(n){
-    if(n<=1){
-        return 1;
-    }
-    let product=1
-    for(let i=1; i<n; i++){
-        product+=i
-    } return product;
-}
-console.log(calculateProduct(10))
+// function calculateProduct(n){
+//     if(n<=1){
+//         return 1;
+//     }
+//     let product=1
+//     for(let i=1; i<n; i++){
+//         product+=i
+//     } return product;
+// }
+// console.log(calculateProduct(10))
